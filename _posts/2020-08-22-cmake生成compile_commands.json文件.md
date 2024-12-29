@@ -1,0 +1,1 @@
+clang的编译工具需要一个compile_commands.json文件，可以通过cmake产生。通过为cmake添加参数 "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"就会在编译目录生成该文件。
